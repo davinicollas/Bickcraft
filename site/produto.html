@@ -14,7 +14,6 @@
   </head>
   <body>
     <script>document.documentElement.classList.add("js");</script>  
-
     <header class="header">
       <div class="container">
         <a href="index.html" class="grid-4">
@@ -30,14 +29,14 @@
         </nav>
       </div>
     </header>
-    <section class="introducao-interna interna_produtos ">
+    <section class="introducao-interna interna_produtos">
       <div class="container">
-        <h1>Produtos</h1>
-        <p>Conheça mais sobre a bikcraft</p>
+        <h1 class="fadeInDown" data-anime="400">Produtos</h1>
+        <p  class="fadeInDown" data-anime="800">Conheça mais sobre a bikcraft</p>
       </div>
     </section>
-    <section class="container produto_item ">
-      <div class="grid-11">
+    <section class="container produto_item fadeInDown">
+      <div class="grid-11 " >
         <img src="img/produtos/bikcraft-passeio-1.jpg" alt="passeio 1">
         <h2>Passeio</h2>
       </div>
@@ -108,7 +107,7 @@
           <label for="email">Email:</label>
           <input type="text" id="email">
           <label for="telefone">Telefone:</label>
-          <input type="tel" id="tel">
+          <input type="tel" id="telefone">
           <label for="especificacoes">Especificações:</label>
           <textarea id="especificacoes"></textarea>
           <button type="submit" class="btn">Enviar</button>
@@ -129,12 +128,12 @@
         </div>
       </div>
     </section>
-    <section class="quebra">
+    <div class="quebra">
       <blockquote class="quote_externo container">
         <p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
         <cite>William Morris</cite>
       </blockquote>
-    </section>
+    </div>
     <footer>
       <div class="footer"> 
           <div class="container">
@@ -153,9 +152,9 @@
             <div class="grid-4 footer_redesocial">
               <h3>Rede sociais</h3>
               <ul>
-                <li><a href="http://facebook.com.br" target="_blank"><img src="img/redes-sociais/facebook.svg"></a></li>
-                <li><a href="http://instagram.com.br" target="_blank"><img src="img/redes-sociais/instagram.svg"></a></li>
-                <li><a href="http://twitter.com.br" target="_blank"><img src="img/redes-sociais/twitter.svg"></a></li>
+                <li><a href="http://facebook.com.br" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="facebook"></a></li>
+                <li><a href="http://instagram.com.br" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="instagram"></a></li>
+                <li><a href="http://twitter.com.br" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="twitter"></a></li>
               </ul>
             </div>  
           </div>
@@ -166,7 +165,7 @@
         </div>
       </div>
     </footer>
+    <script src="js/simple-anime.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/simple-slide.js"></script>
   </body>
 </html>

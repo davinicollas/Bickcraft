@@ -13,6 +13,7 @@
     <title>Bickcraft</title>
   </head>
   <body>
+    <script>document.documentElement.classList.add("js");</script>  
     <header class="header">
       <div class="container">
         <a href="index.html" class="grid-4">
@@ -28,21 +29,21 @@
         </nav>
       </div>
     </header>
-    <section class="introducao-interna sobre_interna ">
-      <div class="container">
-        <h1>Contato</h1>
-        <p>Tire suas dúvidas com a gente</p>
+    <section class="introducao-interna sobre_interna">
+      <div class="container fadeInDown">
+        <h1 data-anime="400">Contato</h1>
+        <p class="fadeInDown" data-anime="800">Tire suas dúvidas com a gente</p>
       </div>
     </section>
     <section class="fale_conosco">
-      <div class="container">
-        <form id="form_orcamento" class="form grid-8">
+      <div class="container fadeInDown" data-anime="1200">
+        <form id="form_orcamento" class="form grid-8 ">
           <label for="nome">Nome:</label>
           <input type="text" id="nome">
           <label for="email">Email:</label>
           <input type="text" id="email">
           <label for="telefone">Telefone:</label>
-          <input type="tel" id="tel">
+          <input type="tel" id="telefone">
           <label for="especificacoes">Especificações:</label>
           <textarea id="especificacoes"></textarea>
           <button type="submit" class="btn btn_preto">Enviar</button>
@@ -57,24 +58,24 @@
         <div class="grid-4 footer_redesocial">
           <h3>Rede sociais</h3>
           <ul>
-            <li><a href="http://facebook.com.br" target="_blank"><img src="img/redes-sociais/facebook.svg"></a></li>
-            <li><a href="http://instagram.com.br" target="_blank"><img src="img/redes-sociais/instagram.svg"></a></li>
-            <li><a href="http://twitter.com.br" target="_blank"><img src="img/redes-sociais/twitter.svg"></a></li>
+            <li><a href="http://facebook.com.br" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="facebook"></a></li>
+            <li><a href="http://instagram.com.br" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="instagram"></a></li>
+            <li><a href="http://twitter.com.br" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="twitter"></a></li>
           </ul>
         </div>  
       </div>
     </section>
-    <section class="container maps">
+    <div class="container maps fadeInDown" data-anime="2000">
         <div class="grid-8">
-         <a href="google.com" target="_blank" class="grid-16"> <img src="img/endereco-bikcraft.jpg"></a>
+         <a href="google.com" target="_blank" class="grid-16"> <img src="img/endereco-bikcraft.jpg" alt="endereco"></a>
         </div>
-    </section>
-    <section class="quebra">
+      </div>
+    <div class="quebra">
       <blockquote class="quote_externo container">
         <p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
         <cite>William Morris</cite>
       </blockquote>
-    </section>
+    </div>
     <footer>
       <div class="footer"> 
           <div class="container">
@@ -93,9 +94,9 @@
             <div class="grid-4 footer_redesocial">
               <h3>Rede sociais</h3>
               <ul>
-                <li><a href="http://facebook.com.br" target="_blank"><img src="img/redes-sociais/facebook.svg"></a></li>
-                <li><a href="http://instagram.com.br" target="_blank"><img src="img/redes-sociais/instagram.svg"></a></li>
-                <li><a href="http://twitter.com.br" target="_blank"><img src="img/redes-sociais/twitter.svg"></a></li>
+                <li><a href="http://facebook.com.br" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="facebook"></a></li>
+                <li><a href="http://instagram.com.br" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="instagram"></a></li>
+                <li><a href="http://twitter.com.br" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="twitter"></a></li>
               </ul>
             </div>  
           </div>
@@ -106,8 +107,7 @@
         </div>
       </div>
     </footer>
-    <script src="js/js.js"></script>
     <script src="js/simple-anime.js"></script>
-    <script src="js/simple-slide.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
